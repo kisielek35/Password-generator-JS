@@ -1,0 +1,85 @@
+body {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+
+main {
+    width: 100%;
+    height: 100vh;
+    background-color: darkgrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    width: 40%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    border-radius: 15px;
+}
+
+.passwordinputdiv {
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.passwordinputdiv input {
+    width: 50%;
+    height: 30%;
+    border-radius: 15px;
+    background-color: rgb(49, 49, 49);
+    border: 0;
+    text-align: center;
+    font-size: 25px;
+}
+
+.setings {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.setings input {
+    cursor: pointer;
+}
+
+.generatebutton {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.generatebutton button {
+    width: 25%;
+    height: 30%;
+    border-radius: 15px;
+    background-color: rgb(49, 49, 49);
+    cursor: pointer;
+}
+
+.passworHistory {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 20%;
+}
+
+li {
+    list-style: numeric;
+}
